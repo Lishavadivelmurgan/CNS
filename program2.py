@@ -1,3 +1,4 @@
+Python Program for Salting
 import os
 import hashlib
 
@@ -31,4 +32,5 @@ if __name__ == "__main__":
     if verify_password(login_password, salt, hashed):
         print("Password Verified")
     else:
+
         print("Wrong password")
