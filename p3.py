@@ -1,4 +1,6 @@
-import re
+Write a Python program to check the strength of a password based on length, uppercase letters, lowercase letters, digits, and special characters.
+
+    import re
 
 def password_strength(password):
     if len(password)<8:
@@ -21,4 +23,5 @@ def password_strength(password):
 
 user_password =input("enter a password to check its strength:")
 password_strength(user_password)
+
                        
