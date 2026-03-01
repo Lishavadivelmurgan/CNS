@@ -1,4 +1,6 @@
-Write a Python program to perform a brute-force attack using a predefined list of passwords to identify a target password
+//Write a Python program to perform a brute-force attack using a predefined list of passwords to identify a target password
+
+
 def brute_force_attack(password_list,target_password):
     for password in password_list:
         print(f"trying password:{password}")
@@ -24,4 +26,5 @@ if __name__=="__main__":
         print("brute force attack successfull!")
     else:
         print("brute force attack failed.")
+
 
