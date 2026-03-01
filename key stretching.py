@@ -1,3 +1,4 @@
+Python Program for Key Stretching (PBKDF2)
 import os
 import hashlib
 import binascii
@@ -40,4 +41,5 @@ if __name__ == "__main__":
     if verify_password(check, salt, stretched):
         print("Password Verified")
     else:
+
         print("Wrong Password")
