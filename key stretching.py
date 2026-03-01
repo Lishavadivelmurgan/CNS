@@ -1,4 +1,5 @@
-Python Program for Key Stretching (PBKDF2)
+//Python Program for Key Stretching (PBKDF2)
+
 import os
 import hashlib
 import binascii
@@ -43,3 +44,4 @@ if __name__ == "__main__":
     else:
 
         print("Wrong Password")
+
