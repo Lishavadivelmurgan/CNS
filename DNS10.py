@@ -1,3 +1,4 @@
+DNSSEC – DNS Response Verification
 import hashlib
 
 def sign_data(data):
@@ -14,5 +15,6 @@ if verify_signature == signature:
     print("\nDNSSEC verification successful: Data i s authentic.")
 else:
     print("\nDNSSEC verification failed: Data has been modified.")
+
 
 
