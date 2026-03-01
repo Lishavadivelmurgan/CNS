@@ -1,4 +1,6 @@
 Fake Website Detection
+
+
 import hashlib
 trusted_dns_records={
     "Google.com":hashlib.sha256("Google.com".encode()).hexdigest(),
@@ -18,4 +20,5 @@ if user_domain in trusted_dns_records:
 else:
     print("\n Fake website Detected!")
     print("Domain not found in trusted DNS records.")
+
 
